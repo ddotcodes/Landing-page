@@ -1,0 +1,47 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Girassol', cursive;
+    background: url(bg4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: rgb(204, 176, 176);
+    letter-spacing: 7px;
+}
+
+.buffer {
+    height: 2em;
+}
+
+.btn {
+    font-weight: lighter;
+    border-radius: 300px;
+    letter-spacing: 5px;
+    /* font-size: 25px; */
+    
+}
+
+.btn-primary {
+    background-color: rgba(221, 129, 68, 0.5);
+    border-color: rgba(221, 129, 68, 0.5);
+}
+
+.btn-primary:hover {
+    background-color: rgb(221, 129, 68);
+    border-color:  rgb(221, 129, 68);
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+
